@@ -1,7 +1,7 @@
 
 # 📦 Inbound Supply Chain Forecasting
 
-This project predicts daily inbound freight volume to a Walmart-style distribution center using historical data. It evaluates multiple forecasting models—from traditional Linear Regression to advanced time series models like Prophet and LSTM—and compares their accuracy to support operational planning, resource allocation, and disruption management.
+This project predicts daily inbound freight volume to a distribution center using historical data. It evaluates multiple forecasting models—from traditional Linear Regression to advanced time series models like Prophet and LSTM—and compares their accuracy to support operational planning, resource allocation, and disruption management.
 
 ---
 
@@ -70,13 +70,4 @@ RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (\hat{y}_i - y_i)^2}
 - Helps warehouse managers plan labor and dock schedules
 - Reduces demurrage costs through better volume anticipation
 - Supports strategic planning for peak seasons or disruptions
-
----
-
-
-## 📌 Next Steps
-
-- Tune LSTM with longer sequences and feature inputs
-- Ensemble Prophet + XGBoost for hybrid accuracy
-- Deploy as a forecasting API (GCP Vertex AI or FastAPI)
 
